@@ -1,12 +1,11 @@
 {
   "name": "language-ini",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Syntax support for ini files.",
   "repository": "https://github.com/jacobbednarz/atom-language-ini",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
