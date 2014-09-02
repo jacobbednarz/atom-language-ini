@@ -76,7 +76,7 @@
     'beginCaptures':
       '0':
         'name': 'punctuation.definition.string.begin.ini'
-    'end': '"'
+    'end': '[!^\\"](?!.*\")'
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.ini'
