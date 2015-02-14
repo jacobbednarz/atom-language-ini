@@ -1,4 +1,3 @@
-# Ini syntax support in Atom
+# Syntax support for Ini files in Atom
 
-Syntax support for .ini files. Ported from
-[textmate/ini](https://github.com/textmate/ini.tmbundle) for Atom.
+Contributions are welcome and bonus are awarded for pull requests. Please fork and send a pull requests for updates to grammars, snippets or documentation.
