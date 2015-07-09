@@ -1,4 +1,5 @@
 'fileTypes': [
+  'inf',
   'ini'
 ]
 'name': 'Ini'
