@@ -2,7 +2,7 @@
   'inf',
   'ini'
 ]
-'name': 'Ini'
+'name': 'INI'
 'patterns': [
   {
     'begin': '^([\\s]+)?(?=#)'
