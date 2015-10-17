@@ -1,5 +1,7 @@
 'fileTypes': [
   'inf',
+  'desktop',
+  'directory',
   'ini'
 ]
 'name': 'INI'
