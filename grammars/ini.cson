@@ -46,7 +46,7 @@
         'name': 'keyword.other.definition.ini'
       '2':
         'name': 'punctuation.separator.key-value.ini'
-    'match': '^([\\[\\][\\s*]a-zA-Z0-9_.-]+)\\s*(=)'
+    'match': '^([\\[\\][\\s*]a-zA-Z0-9_.-]+)\\s*(=|:)'
   }
   {
     'captures':
