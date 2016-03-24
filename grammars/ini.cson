@@ -43,19 +43,19 @@
   {
     'captures':
       '1':
-        'name': 'keyword.other.definition.ini'
-      '2':
-        'name': 'punctuation.separator.key-value.ini'
-    'match': '^([\\[\\][\\s*]a-zA-Z0-9_.-]+)\\s*(=|:)'
-  }
-  {
-    'captures':
-      '1':
         'name': 'punctuation.definition.entity.ini'
       '3':
         'name': 'punctuation.definition.entity.ini'
     'match': '^(\\[)(.*?)(\\])'
     'name': 'entity.name.section.group-title.ini'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'keyword.other.definition.ini'
+      '2':
+        'name': 'punctuation.separator.key-value.ini'
+    'match': '^([\\[\\][\\s*]a-zA-Z0-9_.-]+)\\s*(=|:)'
   }
   {
     'begin': '\''
