@@ -2,7 +2,9 @@
   'inf',
   'desktop',
   'directory',
-  'ini'
+  'ini',
+  'cfg',
+  'conf'
 ]
 'name': 'INI'
 'patterns': [
