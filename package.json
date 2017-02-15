@@ -1,6 +1,6 @@
 {
   "name": "language-ini",
-  "version": "1.17.0",
+  "version": "1.18.0",
   "description": "Syntax support for ini files.",
   "repository": {
     "type": "git",
