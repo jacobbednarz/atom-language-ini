@@ -1,9 +1,10 @@
 'fileTypes': [
-  'inf',
+  'cfg',
   'desktop',
   'directory',
-  'ini',
-  'cfg'
+  'ica',
+  'inf',
+  'ini'
 ]
 'name': 'INI'
 'patterns': [
