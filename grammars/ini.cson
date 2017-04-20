@@ -9,6 +9,10 @@
 'name': 'INI'
 'patterns': [
   {
+    'match': '\\s(\\d+)\\s'
+    'name': 'constant.integer.ini'
+  }
+  {
     'begin': '(^[\\s]+)?(?=#)'
     'beginCaptures':
       '1':
