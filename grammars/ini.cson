@@ -13,6 +13,10 @@
     'name': 'constant.integer.ini'
   }
   {
+    'match': '\\s(true|false)\\s'
+    'name': 'constant.boolean.ini'
+  }
+  {
     'begin': '(^[\\s]+)?(?=#)'
     'beginCaptures':
       '1':
