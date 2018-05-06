@@ -3,6 +3,7 @@
   'directory',
   'ica',
   'inf',
+  'inc',
   'ini'
 ]
 'name': 'INI'
