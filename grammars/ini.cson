@@ -9,12 +9,16 @@
 'name': 'INI'
 'patterns': [
   {
-    'match': '\\s?(\\d+)\\s?'
-    'name': 'constant.integer.ini'
-  }
-  {
     'match': '\\s?(true|false)\\s?'
     'name': 'constant.boolean.ini'
+  }
+  {
+    'match': '\\s?([-+]?[0-9]*\.?[0-9]+)\\s?'
+    'name': 'constant.float.ini'
+  }
+  {
+    'match': '\\s?(\\d+)\\s?'
+    'name': 'constant.integer.ini'
   }
   {
     'begin': '(^[\\s]+)?(?=#)'
@@ -94,6 +98,10 @@
       '0':
         'name': 'punctuation.definition.string.end.ini'
     'name': 'string.quoted.double.ini'
+  }
+  {
+    'match': '\\s?(.*|\n)\\s'
+    'name': 'constant.string.ini'
   }
 ]
 'scopeName': 'source.ini'
