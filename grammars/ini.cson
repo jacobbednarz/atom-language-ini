@@ -13,7 +13,7 @@
     'name': 'constant.boolean.ini'
   }
   {
-    'match': '\\s?([-+]?[0-9]*\.?[0-9]+)\\s?'
+    'match': '\\s?([-+]?[\\d]*\.?[\\d]+)\\s?'
     'name': 'constant.float.ini'
   }
   {
