@@ -9,12 +9,16 @@
 'name': 'INI'
 'patterns': [
   {
-    'match': '\\s?(\\d+)\\s?'
-    'name': 'constant.integer.ini'
-  }
-  {
     'match': '\\s?(true|false)\\s?'
     'name': 'constant.boolean.ini'
+  }
+  {
+    'match': '\\s?([-+]?[\\d]*\.?[\\d]+)\\s?'
+    'name': 'constant.float.ini'
+  }
+  {
+    'match': '\\s?(\\d+)\\s?'
+    'name': 'constant.integer.ini'
   }
   {
     'begin': '(^[\\s]+)?(?=#)'
