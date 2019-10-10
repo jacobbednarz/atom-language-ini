@@ -99,9 +99,5 @@
         'name': 'punctuation.definition.string.end.ini'
     'name': 'string.quoted.double.ini'
   }
-  {
-    'match': '\\s?(.*|\n)\\s'
-    'name': 'constant.string.ini'
-  }
 ]
 'scopeName': 'source.ini'
